@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Exam from "./pages/Exam";
 import Pricing from "./pages/Pricing";
+import Partnership from "./pages/Partnership";
 import PlaceholderPage from "./pages/Placeholder";
 import NotFound from "./pages/NotFound";
 
