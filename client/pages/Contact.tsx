@@ -77,9 +77,12 @@ export default function Contact() {
               >
                 Login
               </Link>
-              <button className="bg-pinterin-dark-blue text-white px-5 py-3 rounded-full font-dm-sans text-base font-normal leading-6 border border-pinterin-dark-blue hover:bg-transparent hover:text-pinterin-dark-blue transition-colors">
+              <Link
+                to="/signup"
+                className="bg-pinterin-dark-blue text-white px-5 py-3 rounded-full font-dm-sans text-base font-normal leading-6 border border-pinterin-dark-blue hover:bg-transparent hover:text-pinterin-dark-blue transition-colors"
+              >
                 Sign Up
-              </button>
+              </Link>
             </nav>
 
             {/* Mobile menu button */}
