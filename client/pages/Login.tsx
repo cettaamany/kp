@@ -31,10 +31,15 @@ export default function Login() {
       return;
     }
 
-    // Simulate login validation - show error modal for demo
-    // In a real app, this would be an API call
+    // Check for dummy credentials
+    if (formData.email === "magangle@gmail.com" && formData.password === "12345") {
+      // Successful login - redirect to dashboard
+      window.location.href = "/dashboard";
+      return;
+    }
+
+    // Show error modal for incorrect credentials
     if (formData.email && formData.password) {
-      // For demo purposes, always show error modal for non-empty fields
       setShowErrorModal(true);
     }
   };
