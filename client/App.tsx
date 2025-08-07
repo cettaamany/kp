@@ -27,15 +27,7 @@ const App = () => (
           <Route path="/exam" element={<Exam />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/partnership" element={<Partnership />} />
-          <Route
-            path="/contact"
-            element={
-              <PlaceholderPage
-                title="Contact Us"
-                description="Get in touch with our team for support and inquiries."
-              />
-            }
-          />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/login"
             element={
