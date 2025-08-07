@@ -15,6 +15,11 @@ export default function Login() {
       ...prev,
       [name]: value
     }));
+
+    // Hide validation warnings when user starts typing
+    if (showValidationWarnings && value.trim()) {
+      setShowValidationWarnings(false);
+    }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
