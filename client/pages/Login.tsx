@@ -6,6 +6,7 @@ export default function Login() {
     email: "",
     password: ""
   });
+  const [showErrorModal, setShowErrorModal] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -17,8 +18,16 @@ export default function Login() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Login form submitted:", formData);
+    // Simulate login validation - show error modal for demo
+    // In a real app, this would be an API call
+    if (formData.email && formData.password) {
+      // For demo purposes, always show error modal
+      setShowErrorModal(true);
+    }
+  };
+
+  const closeErrorModal = () => {
+    setShowErrorModal(false);
   };
 
   return (
