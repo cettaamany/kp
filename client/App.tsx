@@ -11,6 +11,7 @@ import Exam from "./pages/Exam";
 import Pricing from "./pages/Pricing";
 import Partnership from "./pages/Partnership";
 import Contact from "./pages/Contact";
+import SignUp from "./pages/SignUp";
 import PlaceholderPage from "./pages/Placeholder";
 import NotFound from "./pages/NotFound";
 
