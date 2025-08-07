@@ -31,15 +31,7 @@ const App = () => (
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route
-            path="/login"
-            element={
-              <PlaceholderPage
-                title="Login"
-                description="Access your account to continue your preparation journey."
-              />
-            }
-          />
+          <Route path="/login" element={<Login />} />
           <Route
             path="/support"
             element={
