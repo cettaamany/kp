@@ -168,7 +168,7 @@ export default function Login() {
 
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Email Field */}
-              <div>
+              <div className="relative">
                 <label className="block text-black font-inter text-xl font-normal mb-3">
                   Email
                 </label>
@@ -180,10 +180,32 @@ export default function Login() {
                   placeholder="user@scorelab.com"
                   className="w-full h-[61px] px-6 border-2 border-[#DEE2E6] rounded-[10px] font-inter text-lg text-[#595C5F] placeholder:text-[#595C5F] focus:outline-none focus:border-pinterin-purple transition-colors"
                 />
+                {/* Warning Icon */}
+                {showValidationWarnings && !formData.email.trim() && (
+                  <div className="absolute right-4 top-[52px] flex items-center justify-center">
+                    <svg
+                      width="27"
+                      height="27"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-[27px] h-[27px]"
+                    >
+                      <path
+                        d="M15.5 20.9H15.5108M15.5 10.1V16.85M29 15.5C29 8.04395 22.956 2 15.5 2C8.04395 2 2 8.04395 2 15.5C2 22.956 8.04395 29 15.5 29C22.956 29 29 22.956 29 15.5Z"
+                        stroke="#B32121"
+                        strokeWidth="2.5"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                )}
               </div>
 
               {/* Password Field */}
-              <div>
+              <div className="relative">
                 <label className="block text-black font-inter text-xl font-normal mb-3">
                   Password
                 </label>
@@ -195,6 +217,28 @@ export default function Login() {
                   placeholder="password"
                   className="w-full h-[61px] px-6 border-2 border-[#DEE2E6] rounded-[10px] font-inter text-lg text-[#595C5F] placeholder:text-[#595C5F] focus:outline-none focus:border-pinterin-purple transition-colors"
                 />
+                {/* Warning Icon */}
+                {showValidationWarnings && !formData.password.trim() && (
+                  <div className="absolute right-4 top-[52px] flex items-center justify-center">
+                    <svg
+                      width="27"
+                      height="27"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-[27px] h-[27px]"
+                    >
+                      <path
+                        d="M15.5 20.9H15.5108M15.5 10.1V16.85M29 15.5C29 8.04395 22.9561 2 15.5 2C8.04395 2 2 8.04395 2 15.5C2 22.9561 8.04395 29 15.5 29C22.9561 29 29 22.9561 29 15.5Z"
+                        stroke="#B32121"
+                        strokeWidth="2.5"
+                        strokeMiterlimit="10"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                )}
               </div>
 
               {/* Submit Button */}
