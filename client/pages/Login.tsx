@@ -19,10 +19,17 @@ export default function Login() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Check if fields are empty and show validation warnings
+    if (!formData.email.trim() || !formData.password.trim()) {
+      setShowValidationWarnings(true);
+      return;
+    }
+
     // Simulate login validation - show error modal for demo
     // In a real app, this would be an API call
     if (formData.email && formData.password) {
-      // For demo purposes, always show error modal
+      // For demo purposes, always show error modal for non-empty fields
       setShowErrorModal(true);
     }
   };
