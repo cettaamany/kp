@@ -7,6 +7,7 @@ export default function Login() {
     password: ""
   });
   const [showErrorModal, setShowErrorModal] = useState(false);
+  const [showValidationWarnings, setShowValidationWarnings] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
