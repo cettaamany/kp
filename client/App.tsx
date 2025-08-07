@@ -13,6 +13,7 @@ import Partnership from "./pages/Partnership";
 import Contact from "./pages/Contact";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 import PlaceholderPage from "./pages/Placeholder";
 import NotFound from "./pages/NotFound";
 
