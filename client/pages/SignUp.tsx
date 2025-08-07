@@ -116,9 +116,9 @@ export default function SignUp() {
               >
                 Login
               </Link>
-              <button className="bg-pinterin-dark-blue text-white px-5 py-3 rounded-full font-dm-sans text-base font-normal leading-6 border border-pinterin-dark-blue hover:bg-transparent hover:text-pinterin-dark-blue transition-colors">
+              <span className="bg-pinterin-dark-blue text-white px-5 py-3 rounded-full font-dm-sans text-base font-normal leading-6 border border-pinterin-dark-blue opacity-75 cursor-default">
                 Sign Up
-              </button>
+              </span>
             </nav>
 
             {/* Mobile menu button */}
