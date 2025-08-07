@@ -21,15 +21,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route
-            path="/exam"
-            element={
-              <PlaceholderPage
-                title="Exam Practice"
-                description="Take realistic SAT and UTBK practice exams to prepare for test day."
-              />
-            }
-          />
+          <Route path="/exam" element={<Exam />} />
           <Route
             path="/pricing"
             element={
