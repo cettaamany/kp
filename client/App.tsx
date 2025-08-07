@@ -23,15 +23,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/exam" element={<Exam />} />
-          <Route
-            path="/pricing"
-            element={
-              <PlaceholderPage
-                title="Pricing Plans"
-                description="Choose the perfect plan for your SAT and UTBK preparation journey."
-              />
-            }
-          />
+          <Route path="/pricing" element={<Pricing />} />
           <Route
             path="/partnership"
             element={
