@@ -47,16 +47,20 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // Pinterin brand colors
+        pinterin: {
+          cream: "hsl(var(--pinterin-cream))",
+          "dark-blue": "hsl(var(--pinterin-dark-blue))",
+          blue: "hsl(var(--pinterin-blue))",
+          purple: "hsl(var(--pinterin-purple))",
+          muted: "hsl(var(--pinterin-muted))",
+          border: "hsl(var(--pinterin-border))",
         },
+      },
+      fontFamily: {
+        'dm-sans': ['DM Sans', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
