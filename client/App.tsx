@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
+import PracticeWithAI from "./pages/PracticeWithAI";
 import PlaceholderPage from "./pages/Placeholder";
 import NotFound from "./pages/NotFound";
 
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/practice-with-ai" element={<PracticeWithAI />} />
           <Route
             path="/support"
             element={
