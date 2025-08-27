@@ -239,7 +239,7 @@ export default function Exam() {
                   New
                 </div>
                 <div className="col-span-2">
-                  <button className="bg-pinterin-purple text-white px-4 py-2 rounded flex items-center gap-2 text-sm font-medium hover:bg-pinterin-purple/90 transition-colors">
+                  <Link to="/exam/start/1" className="bg-pinterin-purple text-white px-4 py-2 rounded flex items-center gap-2 text-sm font-medium hover:bg-pinterin-purple/90 transition-colors">
                     <svg
                       width="17"
                       height="17"
@@ -262,7 +262,7 @@ export default function Exam() {
                       </defs>
                     </svg>
                     Start Exam
-                  </button>
+                  </Link>
                 </div>
               </div>
 
