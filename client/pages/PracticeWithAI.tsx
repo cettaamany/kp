@@ -419,7 +419,7 @@ export default function PracticeWithAI() {
           </div>
 
           {/* Personalized Study Roadmap Section */}
-          <div className="bg-pinterin-dark-blue rounded-xl shadow-lg p-8 relative overflow-hidden">
+          <div className="bg-pinterin-dark-blue rounded-xl shadow-lg p-8 relative overflow-hidden mb-[200px]">
             {/* Robot Character */}
             <div className="absolute right-8 top-0 bottom-0 flex items-center">
               <svg
