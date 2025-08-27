@@ -48,7 +48,7 @@ export default function ExamStart() {
         {/* Stats Cards */}
         <div className="flex gap-8 mb-16 justify-center">
           {/* Total Questions */}
-          <div className="w-[227px] h-[101px] border-3 border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
+          <div className="w-[227px] h-[101px] border-[3px] border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
             <span className="text-[#595C5F] font-inter text-xl font-medium mb-2">
               Total Questions
             </span>
@@ -58,7 +58,7 @@ export default function ExamStart() {
           </div>
 
           {/* Total Time */}
-          <div className="w-[227px] h-[101px] border-3 border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
+          <div className="w-[227px] h-[101px] border-[3px] border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
             <span className="text-[#595C5F] font-inter text-xl font-medium mb-2 text-center">
               Total Time
             </span>
@@ -68,7 +68,7 @@ export default function ExamStart() {
           </div>
 
           {/* Break Time */}
-          <div className="w-[227px] h-[101px] border-3 border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
+          <div className="w-[227px] h-[101px] border-[3px] border-pinterin-purple rounded-lg bg-white flex flex-col items-center justify-center">
             <span className="text-[#595C5F] font-inter text-xl font-medium mb-2 text-center">
               Break Time
             </span>
@@ -80,7 +80,7 @@ export default function ExamStart() {
 
         {/* Exam Sections */}
         <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-white border-3 border-[#B1B1B1] rounded-lg p-8">
+          <div className="bg-white border-[3px] border-[#B1B1B1] rounded-lg p-8">
             <h3 className="text-[#595C5F] font-inter text-xl font-medium mb-6">
               Include
             </h3>
