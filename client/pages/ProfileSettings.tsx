@@ -83,7 +83,7 @@ export default function ProfileSettings() {
             {/* Profile Settings - Active */}
             <div className="bg-[#F4F4F5] rounded-[10px] p-3 mb-4 flex items-center w-[294px] h-[49px]">
               <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-4">
-                <path d="M21.5588 13.7148C21.3851 13.5171 21.2893 13.263 21.2893 12.9998C21.2893 12.7367 21.3851 12.4825 21.5588 12.2848L22.9455 10.7248C23.0983 10.5544 23.1931 10.3399 23.2165 10.1122C23.2399 9.88452 23.1905 9.65526 23.0755 9.45735L20.9088 5.70901C20.7949 5.51133 20.6216 5.35463 20.4134 5.26126C20.2053 5.16788 19.973 5.1426 19.7496 5.18901L17.713 5.60068C17.4538 5.65423 17.184 5.61107 16.9545 5.47935C16.725 5.34762 16.5516 5.13645 16.4671 4.88568L15.8063 2.90318C15.7336 2.68801 15.5952 2.50112 15.4105 2.36892C15.2258 2.23673 15.0042 2.16593 14.7771 2.16651H10.4438C10.2076 2.15418 9.97377 2.21952 9.77815 2.35254C9.58254 2.48556 9.43584 2.67895 9.36046 2.90318L8.75379 4.88568C8.66929 5.13645 8.49593 5.34762 8.26641 5.47935C8.0369 5.61107 7.76711 5.65423 7.50796 5.60068L5.41712 5.18901C5.20539 5.15909 4.98953 5.1925 4.79675 5.28504C4.60397 5.37757 4.44288 5.52509 4.33379 5.70901L2.16712 9.45735C2.04921 9.65305 1.9962 9.88102 2.01566 10.1087C2.03511 10.3363 2.12605 10.552 2.27546 10.7248L3.65129 12.2848C3.82497 12.4825 3.92075 12.7367 3.92075 12.9998C3.92075 13.263 3.82497 13.5171 3.65129 13.7148L2.27546 15.2748C2.12605 15.4477 2.03511 15.6634 2.01566 15.891C1.9962 16.1187 2.04921 16.3466 2.16712 16.5423L4.33379 20.2907C4.44765 20.4884 4.621 20.6451 4.82915 20.7384C5.03729 20.8318 5.2696 20.8571 5.49296 20.8107L7.52962 20.399C7.78878 20.3455 8.05857 20.3886 8.28808 20.5203C8.51759 20.6521 8.69096 20.8632 8.77546 21.114L9.43629 23.0965C9.51167 23.3207 9.65837 23.5141 9.85399 23.6472C10.0496 23.7802 10.2834 23.8455 10.5196 23.8332H14.853C15.0801 23.8338 15.3016 23.763 15.4863 23.6308C15.671 23.4986 15.8094 23.3117 15.8821 23.0965L16.543 21.114C16.6275 20.8632 16.8008 20.6521 17.0303 20.5203C17.2598 20.3886 17.5296 20.3455 17.7888 20.399L19.8255 20.8107C20.0488 20.8571 20.2811 20.8318 20.4893 20.7384C20.6974 20.6451 20.8708 20.4884 20.9846 20.2907L23.1513 16.5423C23.2663 16.3444 23.3157 16.1152 23.2923 15.8875C23.269 15.6598 23.1741 15.4453 23.0213 15.2748L21.5588 13.7148ZM19.9446 15.1665L20.8113 16.1415L19.4246 18.5465L18.1463 18.2865C17.3661 18.127 16.5544 18.2596 15.8654 18.659C15.1765 19.0584 14.6581 19.6968 14.4088 20.4532L13.9971 21.6665H11.2238L10.8338 20.4315C10.5845 19.6752 10.0661 19.0367 9.37715 18.6373C8.68817 18.2379 7.87653 18.1054 7.09629 18.2648L5.81796 18.5248L4.40962 16.1307L5.27629 15.1557C5.80924 14.5598 6.10388 13.7884 6.10388 12.989C6.10388 12.1896 5.80924 11.4182 5.27629 10.8223L4.40962 9.84735L5.79629 7.46401L7.07462 7.72401C7.85486 7.8835 8.6665 7.75097 9.35548 7.35156C10.0445 6.95216 10.5628 6.31368 10.8121 5.55735L11.2238 4.33318H13.9971L14.4088 5.56818C14.6581 6.32452 15.1765 6.96299 15.8654 7.36239C16.5544 7.7618 17.3661 7.89434 18.1463 7.73485L19.4246 7.47485L20.8113 9.87985L19.9446 10.8548C19.4177 11.4493 19.1267 12.2163 19.1267 13.0107C19.1267 13.8051 19.4177 14.572 19.9446 15.1665ZM12.6105 8.66651C11.7534 8.66651 10.9156 8.92066 10.203 9.39681C9.49037 9.87296 8.93496 10.5497 8.60698 11.3416C8.279 12.1334 8.19319 13.0047 8.36039 13.8452C8.52759 14.6858 8.9403 15.4579 9.54633 16.064C10.1524 16.67 10.9245 17.0827 11.7651 17.2499C12.6057 17.4171 13.4769 17.3313 14.2688 17.0033C15.0606 16.6753 15.7373 16.1199 16.2135 15.4073C16.6896 14.6947 16.9438 13.8569 16.9438 12.9998C16.9438 11.8506 16.4872 10.7484 15.6746 9.93572C14.8619 9.12306 13.7597 8.66651 12.6105 8.66651ZM12.6105 15.1665C12.1819 15.1665 11.763 15.0394 11.4067 14.8014C11.0504 14.5633 10.7727 14.2249 10.6087 13.829C10.4447 13.4331 10.4018 12.9974 10.4854 12.5772C10.569 12.1569 10.7754 11.7708 11.0784 11.4678C11.3814 11.1648 11.7675 10.9584 12.1878 10.8748C12.6081 10.7912 13.0437 10.8341 13.4396 10.9981C13.8355 11.1621 14.1739 11.4398 14.412 11.7961C14.6501 12.1524 14.7771 12.5713 14.7771 12.9998C14.7771 13.5745 14.5489 14.1256 14.1425 14.5319C13.7362 14.9382 13.1851 15.1665 12.6105 15.1665Z" fill="#381FD1"/>
+                <path d="M21.5583 13.7148C21.3846 13.5171 21.2888 13.263 21.2888 12.9998C21.2888 12.7367 21.3846 12.4825 21.5583 12.2848L22.945 10.7248C23.0978 10.5544 23.1927 10.3399 23.216 10.1122C23.2394 9.88452 23.19 9.65526 23.075 9.45735L20.9083 5.70901C20.7944 5.51133 20.6211 5.35463 20.4129 5.26126C20.2048 5.16788 19.9725 5.1426 19.7491 5.18901L17.7125 5.60068C17.4533 5.65423 17.1835 5.61107 16.954 5.47935C16.7245 5.34762 16.5511 5.13645 16.4666 4.88568L15.8058 2.90318C15.7331 2.68801 15.5947 2.50112 15.41 2.36892C15.2253 2.23673 15.0037 2.16593 14.7766 2.16651H10.4433C10.2071 2.15418 9.97328 2.21952 9.77766 2.35254C9.58205 2.48556 9.43535 2.67895 9.35997 2.90318L8.7533 4.88568C8.6688 5.13645 8.49544 5.34762 8.26592 5.47935C8.03641 5.61107 7.76662 5.65423 7.50747 5.60068L5.41664 5.18901C5.2049 5.15909 4.98904 5.1925 4.79626 5.28504C4.60348 5.37757 4.4424 5.52509 4.3333 5.70901L2.16664 9.45735C2.04873 9.65305 1.99571 9.88102 2.01517 10.1087C2.03462 10.3363 2.12556 10.552 2.27497 10.7248L3.6508 12.2848C3.82448 12.4825 3.92026 12.7367 3.92026 12.9998C3.92026 13.263 3.82448 13.5171 3.6508 13.7148L2.27497 15.2748C2.12556 15.4477 2.03462 15.6634 2.01517 15.891C1.99571 16.1187 2.04873 16.3466 2.16664 16.5423L4.3333 20.2907C4.44716 20.4884 4.62051 20.6451 4.82866 20.7384C5.0368 20.8318 5.26911 20.8571 5.49247 20.8107L7.52914 20.399C7.78829 20.3455 8.05808 20.3886 8.28759 20.5203C8.51711 20.6521 8.69047 20.8632 8.77497 21.114L9.4358 23.0965C9.51118 23.3207 9.65788 23.5141 9.85349 23.6472C10.0491 23.7802 10.2829 23.8455 10.5191 23.8332H14.8525C15.0796 23.8338 15.3011 23.763 15.4858 23.6308C15.6705 23.4986 15.809 23.3117 15.8816 23.0965L16.5425 21.114C16.627 20.8632 16.8003 20.6521 17.0298 20.5203C17.2594 20.3886 17.5292 20.3455 17.7883 20.399L19.825 20.8107C20.0483 20.8571 20.2806 20.8318 20.4888 20.7384C20.6969 20.6451 20.8703 20.4884 20.9841 20.2907L23.1508 16.5423C23.2658 16.3444 23.3152 16.1152 23.2918 15.8875C23.2685 15.6598 23.1736 15.4453 23.0208 15.2748L21.5583 13.7148ZM19.9441 15.1665L20.8108 16.1415L19.4241 18.5465L18.1458 18.2865C17.3656 18.127 16.5539 18.2596 15.8649 18.659C15.176 19.0584 14.6576 19.6968 14.4083 20.4532L13.9966 21.6665H11.2233L10.8333 20.4315C10.584 19.6752 10.0656 19.0367 9.37666 18.6373C8.68768 18.2379 7.87604 18.1054 7.0958 18.2648L5.81747 18.5248L4.40914 16.1307L5.2758 15.1557C5.80875 14.5598 6.1034 13.7884 6.1034 12.989C6.1034 12.1896 5.80875 11.4182 5.2758 10.8223L4.40914 9.84735L5.7958 7.46401L7.07414 7.72401C7.85438 7.8835 8.66602 7.75097 9.35499 7.35156C10.044 6.95216 10.5623 6.31368 10.8116 5.55735L11.2233 4.33318H13.9966L14.4083 5.56818C14.6576 6.32452 15.176 6.96299 15.8649 7.36239C16.5539 7.7618 17.3656 7.89434 18.1458 7.73485L19.4241 7.47485L20.8108 9.87985L19.9441 10.8548C19.4172 11.4493 19.1262 12.2163 19.1262 13.0107C19.1262 13.8051 19.4172 14.572 19.9441 15.1665ZM12.61 8.66651C11.7529 8.66651 10.9151 8.92066 10.2025 9.39681C9.48988 9.87296 8.93447 10.5497 8.60649 11.3416C8.27851 12.1334 8.1927 13.0047 8.3599 13.8452C8.5271 14.6858 8.93981 15.4579 9.54584 16.064C10.1519 16.67 10.924 17.0827 11.7646 17.2499C12.6052 17.4171 13.4765 17.3313 14.2683 17.0033C15.0601 16.6753 15.7369 16.1199 16.213 15.4073C16.6892 14.6947 16.9433 13.8569 16.9433 12.9998C16.9433 11.8506 16.4868 10.7484 15.6741 9.93572C14.8614 9.12306 13.7592 8.66651 12.61 8.66651ZM12.61 15.1665C12.1814 15.1665 11.7625 15.0394 11.4062 14.8014C11.0499 14.5633 10.7722 14.2249 10.6082 13.829C10.4442 13.4331 10.4013 12.9974 10.4849 12.5772C10.5685 12.1569 10.7749 11.7708 11.0779 11.4678C11.3809 11.1648 11.767 10.9584 12.1873 10.8748C12.6076 10.7912 13.0432 10.8341 13.4391 10.9981C13.835 11.1621 14.1734 11.4398 14.4115 11.7961C14.6496 12.1524 14.7766 12.5713 14.7766 12.9998C14.7766 13.5745 14.5484 14.1256 14.142 14.5319C13.7357 14.9382 13.1846 15.1665 12.61 15.1665Z" fill="#381FD1"/>
               </svg>
               <span className="text-[#381FD1] font-inter text-xl font-medium">Profile Settings</span>
             </div>
@@ -119,19 +119,19 @@ export default function ProfileSettings() {
           {/* Tab Navigation */}
           <div className="mb-8">
             <div className="bg-white rounded-[10px] shadow-[0_0_4px_0_rgba(0,0,0,0.25)] inline-flex w-[253px] h-[42px] relative">
-              {/* Account Tab - Active */}
-              <button 
+              {/* Account Tab */}
+              <button
                 onClick={() => setActiveTab('account')}
                 className={`rounded-[10px] w-[132px] h-[42px] flex items-center justify-center transition-colors ${
                   activeTab === 'account' ? 'bg-[#10284B]' : 'bg-transparent'
                 }`}
               >
-                <span className={`font-roboto text-base font-medium text-center ${
+                <span className={`font-roboto text-base font-medium ${
                   activeTab === 'account' ? 'text-white' : 'text-[#595C5F]'
                 }`}>Account</span>
               </button>
               {/* Orders Tab */}
-              <button 
+              <button
                 onClick={() => setActiveTab('orders')}
                 className={`rounded-[10px] w-[121px] h-[42px] flex items-center justify-center transition-colors ${
                   activeTab === 'orders' ? 'bg-[#10284B]' : 'bg-transparent'
@@ -144,44 +144,50 @@ export default function ProfileSettings() {
             </div>
           </div>
 
-          {/* Main Content Area */}
+          {/* Content Area */}
           {activeTab === 'account' && (
             <div className="bg-white rounded-[17px] shadow-[0_0_6px_0_rgba(0,0,0,0.25)] p-8 w-[1205px] h-[522px]">
               <h2 className="text-[#10284B] font-roboto text-lg font-medium mb-8">Account Information</h2>
-              
-              <div className="grid grid-cols-2 gap-8">
+
+              <div className="grid grid-cols-2 gap-x-[50px] gap-y-6">
                 {/* Left Column */}
                 <div className="space-y-6">
                   {/* First Name */}
                   <div>
-                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">First Name</label>
+                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">
+                      First Name
+                    </label>
                     <input
                       type="text"
                       value={formData.firstName}
                       onChange={(e) => handleInputChange('firstName', e.target.value)}
-                      className="w-full h-[40px] px-4 border-2 border-[#C5C5CF] rounded-[7px] bg-white text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
+                      className="w-[535px] h-[40px] border-2 border-[#C5C5CF] rounded-[7px] px-4 text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
                     />
                   </div>
 
                   {/* Phone Number */}
                   <div>
-                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">Phone Number</label>
+                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">
+                      Phone Number
+                    </label>
                     <input
                       type="text"
                       value={formData.phoneNumber}
                       onChange={(e) => handleInputChange('phoneNumber', e.target.value)}
-                      className="w-full h-[40px] px-4 border-2 border-[#C5C5CF] rounded-[7px] bg-white text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
+                      className="w-[535px] h-[40px] border-2 border-[#C5C5CF] rounded-[7px] px-4 text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
                     />
                   </div>
 
                   {/* Parent Email */}
                   <div>
-                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">Parent Email</label>
+                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">
+                      Parent Email
+                    </label>
                     <input
                       type="email"
                       value={formData.parentEmail}
                       onChange={(e) => handleInputChange('parentEmail', e.target.value)}
-                      className="w-full h-[40px] px-4 border-2 border-[#C5C5CF] rounded-[7px] bg-white text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
+                      className="w-[535px] h-[40px] border-2 border-[#C5C5CF] rounded-[7px] px-4 text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
                     />
                   </div>
                 </div>
@@ -190,46 +196,47 @@ export default function ProfileSettings() {
                 <div className="space-y-6">
                   {/* Last Name */}
                   <div>
-                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">Last Name</label>
+                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">
+                      Last Name
+                    </label>
                     <input
                       type="text"
                       value={formData.lastName}
                       onChange={(e) => handleInputChange('lastName', e.target.value)}
-                      className="w-full h-[40px] px-4 border-2 border-[#C5C5CF] rounded-[7px] bg-white text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
+                      className="w-[535px] h-[40px] border-2 border-[#C5C5CF] rounded-[7px] px-4 text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
                     />
                   </div>
 
                   {/* Birth Date */}
                   <div>
-                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">Birth Date</label>
+                    <label className="block text-[#595C5F] font-roboto text-base font-medium mb-3">
+                      Birth Date
+                    </label>
                     <input
                       type="text"
                       value={formData.birthDate}
                       onChange={(e) => handleInputChange('birthDate', e.target.value)}
-                      placeholder="DD/MM/YY"
-                      className="w-full h-[40px] px-4 border-2 border-[#C5C5CF] rounded-[7px] bg-white text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
+                      className="w-[535px] h-[40px] border-2 border-[#C5C5CF] rounded-[7px] px-4 text-[#7F8183] font-roboto text-base focus:outline-none focus:border-[#381FD1]"
                     />
                   </div>
                 </div>
               </div>
 
               {/* Save Changes Button */}
-              <div className="mt-12">
-                <button
-                  onClick={handleSaveChanges}
-                  className="bg-[#381FD1] text-white font-roboto text-base font-medium px-8 py-3 rounded-[6px] h-[41px] w-[170px] flex items-center justify-center gap-3 hover:bg-[#2d1aa0] transition-colors"
-                >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5 21C4.45 21 3.97933 20.8043 3.588 20.413C3.19667 20.0217 3.00067 19.5507 3 19V5C3 4.45 3.196 3.97933 3.588 3.588C3.98 3.19667 4.45067 3.00067 5 3H16.175C16.4417 3 16.696 3.05 16.938 3.15C17.18 3.25 17.3923 3.39167 17.575 3.575L20.425 6.425C20.6083 6.60833 20.75 6.821 20.85 7.063C20.95 7.305 21 7.559 21 7.825V19C21 19.55 20.8043 20.021 20.413 20.413C20.0217 20.805 19.5507 21.0007 19 21H5ZM12 18C12.8333 18 13.5417 17.7083 14.125 17.125C14.7083 16.5417 15 15.8333 15 15C15 14.1667 14.7083 13.4583 14.125 12.875C13.5417 12.2917 12.8333 12 12 12C11.1667 12 10.4583 12.2917 9.875 12.875C9.29167 13.4583 9 14.1667 9 15C9 15.8333 9.29167 16.5417 9.875 17.125C10.4583 17.7083 11.1667 18 12 18ZM7 10H14C14.2833 10 14.521 9.904 14.713 9.712C14.905 9.52 15.0007 9.28267 15 9V7C15 6.71667 14.904 6.47933 14.712 6.288C14.52 6.09667 14.2827 6.00067 14 6H7C6.71667 6 6.47933 6.096 6.288 6.288C6.09667 6.48 6.00067 6.71733 6 7V9C6 9.28333 6.096 9.521 6.288 9.713C6.48 9.905 6.71733 10.0007 7 10Z" fill="white"/>
-                  </svg>
-                  Save Changes
-                </button>
-              </div>
+              <button
+                onClick={handleSaveChanges}
+                className="mt-12 w-[170px] h-[41px] bg-[#381FD1] rounded-[6px] flex items-center justify-center gap-2 hover:bg-[#2d1aa6] transition-colors"
+              >
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 21C4.45 21 3.97933 20.8043 3.588 20.413C3.19667 20.0217 3.00067 19.5507 3 19V5C3 4.45 3.196 3.97933 3.588 3.588C3.98 3.19667 4.45067 3.00067 5 3H16.175C16.4417 3 16.696 3.05 16.938 3.15C17.18 3.25 17.3923 3.39167 17.575 3.575L20.425 6.425C20.6083 6.60833 20.75 6.821 20.85 7.063C20.95 7.305 21 7.559 21 7.825V19C21 19.55 20.8043 20.021 20.413 20.413C20.0217 20.805 19.5507 21.0007 19 21H5ZM12 18C12.8333 18 13.5417 17.7083 14.125 17.125C14.7083 16.5417 15 15.8333 15 15C15 14.1667 14.7083 13.4583 14.125 12.875C13.5417 12.2917 12.8333 12 12 12C11.1667 12 10.4583 12.2917 9.875 12.875C9.29167 13.4583 9 14.1667 9 15C9 15.8333 9.29167 16.5417 9.875 17.125C10.4583 17.7083 11.1667 18 12 18ZM7 10H14C14.2833 10 14.521 9.904 14.713 9.712C14.905 9.52 15.0007 9.28267 15 9V7C15 6.71667 14.904 6.47933 14.712 6.288C14.52 6.09667 14.2827 6.00067 14 6H7C6.71667 6 6.47933 6.096 6.288 6.288C6.09667 6.48 6.00067 6.71733 6 7V9C6 9.28333 6.096 9.521 6.288 9.713C6.48 9.905 6.71733 10.0007 7 10Z" fill="white"/>
+                </svg>
+                <span className="text-white font-roboto text-base font-medium">Save Changes</span>
+              </button>
             </div>
           )}
 
           {activeTab === 'orders' && (
-            <div className="bg-white rounded-[17px] shadow-[0_0_6px_0_rgba(0,0,0,0.25)] p-12 w-[1205px] h-[522px] flex items-center justify-center">
+            <div className="bg-white rounded-[17px] shadow-[0_0_6px_0_rgba(0,0,0,0.25)] p-8 w-[1205px] h-[522px] flex items-center justify-center">
               <div className="text-center">
                 <h3 className="text-[#10284B] font-roboto text-lg font-medium mb-2">No orders found</h3>
                 <p className="text-[#595C5F] font-roboto text-sm">You haven't placed any orders yet.</p>
