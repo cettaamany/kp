@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function Reports() {
-  const [activeTab, setActiveTab] = useState<'all' | 'practice' | 'exam'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'practice' | 'exam'>('practice');
 
   return (
     <div className="min-h-screen bg-[#FAFAFA] flex">
