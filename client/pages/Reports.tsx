@@ -143,27 +143,77 @@ export default function Reports() {
 
           {/* Main Content Area */}
           <div className="bg-white rounded-[17px] p-12 w-[1397px] h-[247px] flex items-center justify-center">
-            <div className="flex items-center gap-12">
-              {/* Empty State Text */}
-              <div className="text-center">
-                <div className="w-12 h-12 rounded-full border-2 border-[#DEE5ED] flex items-center justify-center mb-4 mx-auto">
-                  <div className="w-6 h-6 rounded-full bg-[#DEE5ED] flex items-center justify-center">
-                    <span className="text-[#595C5F] text-sm font-medium">!</span>
+            {activeTab === 'all' && (
+              <div className="flex items-center gap-12">
+                {/* Empty State Text */}
+                <div className="text-center">
+                  <div className="w-12 h-12 rounded-full border-2 border-[#DEE5ED] flex items-center justify-center mb-4 mx-auto">
+                    <div className="w-6 h-6 rounded-full bg-[#DEE5ED] flex items-center justify-center">
+                      <span className="text-[#595C5F] text-sm font-medium">!</span>
+                    </div>
                   </div>
+                  <h3 className="text-[#10284B] font-roboto text-lg font-medium mb-2">No reports found</h3>
+                  <p className="text-[#595C5F] font-roboto text-sm">Try adjusting your search or filter to find what you're looking for.</p>
                 </div>
-                <h3 className="text-[#10284B] font-roboto text-lg font-medium mb-2">No reports found</h3>
-                <p className="text-[#595C5F] font-roboto text-sm">Try adjusting your search or filter to find what you're looking for.</p>
+
+                {/* Illustration */}
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/1268414b1e783b5ea54e5160a8c919f2e8533628?width=1122"
+                    alt="No reports illustration"
+                    className="w-[561px] h-[204px] object-contain"
+                  />
+                </div>
               </div>
-              
-              {/* Illustration */}
-              <div className="flex-shrink-0">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/1268414b1e783b5ea54e5160a8c919f2e8533628?width=1122" 
-                  alt="No reports illustration" 
-                  className="w-[561px] h-[204px] object-contain"
-                />
+            )}
+
+            {activeTab === 'practice' && (
+              <div className="flex items-center gap-12">
+                {/* Practice Content */}
+                <div className="text-center">
+                  <div className="w-12 h-12 rounded-full border-2 border-[#DEE5ED] flex items-center justify-center mb-4 mx-auto">
+                    <div className="w-6 h-6 rounded-full bg-[#DEE5ED] flex items-center justify-center">
+                      <span className="text-[#595C5F] text-sm font-medium">!</span>
+                    </div>
+                  </div>
+                  <h3 className="text-[#10284B] font-roboto text-lg font-medium mb-2">No practice reports found</h3>
+                  <p className="text-[#595C5F] font-roboto text-sm">Try adjusting your search or filter to find what you're looking for.</p>
+                </div>
+
+                {/* Illustration */}
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/1268414b1e783b5ea54e5160a8c919f2e8533628?width=1122"
+                    alt="No practice reports illustration"
+                    className="w-[561px] h-[204px] object-contain"
+                  />
+                </div>
               </div>
-            </div>
+            )}
+
+            {activeTab === 'exam' && (
+              <div className="flex items-center gap-12">
+                {/* Exam Content */}
+                <div className="text-center">
+                  <div className="w-12 h-12 rounded-full border-2 border-[#DEE5ED] flex items-center justify-center mb-4 mx-auto">
+                    <div className="w-6 h-6 rounded-full bg-[#DEE5ED] flex items-center justify-center">
+                      <span className="text-[#595C5F] text-sm font-medium">!</span>
+                    </div>
+                  </div>
+                  <h3 className="text-[#10284B] font-roboto text-lg font-medium mb-2">No exam reports found</h3>
+                  <p className="text-[#595C5F] font-roboto text-sm">Try adjusting your search or filter to find what you're looking for.</p>
+                </div>
+
+                {/* Illustration */}
+                <div className="flex-shrink-0">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/1268414b1e783b5ea54e5160a8c919f2e8533628?width=1122"
+                    alt="No exam reports illustration"
+                    className="w-[561px] h-[204px] object-contain"
+                  />
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
