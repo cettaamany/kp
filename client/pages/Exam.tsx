@@ -100,7 +100,7 @@ export default function Exam() {
               </span>
             </div>
 
-            <div className="flex items-center p-3 mb-8">
+            <Link to="/reports" className="flex items-center p-3 mb-8">
               <svg
                 width="22"
                 height="22"
@@ -117,7 +117,7 @@ export default function Exam() {
               <span className="text-[#7F8183] font-inter text-xl font-medium">
                 Reports
               </span>
-            </div>
+            </Link>
           </div>
 
           {/* Separator */}
