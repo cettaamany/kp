@@ -43,12 +43,12 @@ export default function MyProfile() {
             </div>
 
             {/* Reports */}
-            <div className="flex items-center p-3 mb-8">
+            <Link to="/reports" className="flex items-center p-3 mb-8">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-4">
                 <path d="M14.6668 10.7983L18.5535 4.07917L20.1393 4.99583L15.3452 13.2917L9.37766 9.85417L5.00516 17.4167H20.1668V19.25H1.8335V2.75H3.66683V16.0783L8.7085 7.33333L14.6668 10.7983Z" fill="#7F8183"/>
               </svg>
               <span className="text-[#7F8183] font-inter text-xl font-medium">Reports</span>
-            </div>
+            </Link>
           </div>
 
           {/* Divider */}
