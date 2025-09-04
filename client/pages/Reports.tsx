@@ -105,18 +105,39 @@ export default function Reports() {
           {/* Tab Navigation */}
           <div className="mb-8">
             <div className="bg-white rounded-[10px] shadow-[0_0_4px_0_rgba(0,0,0,0.25)] inline-flex w-[253px] h-[42px] relative">
-              {/* All Tab - Active */}
-              <div className="bg-[#10284B] rounded-[10px] w-[87px] h-[42px] flex items-center justify-center">
-                <span className="text-white font-roboto text-base font-medium">All</span>
-              </div>
+              {/* All Tab */}
+              <button
+                onClick={() => setActiveTab('all')}
+                className={`rounded-[10px] w-[87px] h-[42px] flex items-center justify-center transition-colors ${
+                  activeTab === 'all' ? 'bg-[#10284B]' : 'bg-transparent'
+                }`}
+              >
+                <span className={`font-roboto text-base font-medium ${
+                  activeTab === 'all' ? 'text-white' : 'text-[#595C5F]'
+                }`}>All</span>
+              </button>
               {/* Practice Tab */}
-              <div className="flex items-center justify-center w-[83px] h-[42px]">
-                <span className="text-[#595C5F] font-roboto text-base font-medium">Practice</span>
-              </div>
+              <button
+                onClick={() => setActiveTab('practice')}
+                className={`rounded-[10px] w-[83px] h-[42px] flex items-center justify-center transition-colors ${
+                  activeTab === 'practice' ? 'bg-[#10284B]' : 'bg-transparent'
+                }`}
+              >
+                <span className={`font-roboto text-base font-medium ${
+                  activeTab === 'practice' ? 'text-white' : 'text-[#595C5F]'
+                }`}>Practice</span>
+              </button>
               {/* Exam Tab */}
-              <div className="flex items-center justify-center w-[83px] h-[42px]">
-                <span className="text-[#595C5F] font-roboto text-base font-medium text-center">Exam</span>
-              </div>
+              <button
+                onClick={() => setActiveTab('exam')}
+                className={`rounded-[10px] w-[83px] h-[42px] flex items-center justify-center transition-colors ${
+                  activeTab === 'exam' ? 'bg-[#10284B]' : 'bg-transparent'
+                }`}
+              >
+                <span className={`font-roboto text-base font-medium text-center ${
+                  activeTab === 'exam' ? 'text-white' : 'text-[#595C5F]'
+                }`}>Exam</span>
+              </button>
             </div>
           </div>
 
