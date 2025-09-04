@@ -18,6 +18,7 @@ import Dashboard from "./pages/Dashboard";
 import PracticeWithAI from "./pages/PracticeWithAI";
 import MyProfile from "./pages/MyProfile";
 import Reports from "./pages/Reports";
+import ProfileSettings from "./pages/ProfileSettings";
 import PlaceholderPage from "./pages/Placeholder";
 import NotFound from "./pages/NotFound";
 
